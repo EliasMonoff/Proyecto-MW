@@ -1,0 +1,48 @@
+body{
+    min-width: 320px;
+}
+.carousel {
+    height: 66.67%;
+    margin-bottom: 0;
+}
+.carousel-inner, .carousel-item img{ 
+    height: 70vh;
+    object-fit: cover;
+}
+
+.navbar-brand img{
+    height: 7vh;
+}
+.carousel__txt{
+    background-color: rgba(0, 0, 0, 0.507);
+}
+.title{
+    text-align: center;
+    padding: 1em;
+}
+.list-group li{
+    text-align: center;
+}
+.card{
+    margin: 0 auto;
+    margin-bottom: 4rem;
+}
+.list-group-item img{
+    height: 2rem;
+}
+.card-tall img{
+    height: 30vh;
+    min-height: 200px;
+    object-fit: cover;
+}
+.wp-logo img{
+    height: 30px;
+}
+.bg-image{
+    height: 60vh;
+    max-height: 400px;
+    min-height: 200px;
+    background-image: url(./assets/images/rastreo-satelital.png);
+    background-size: cover;
+    background-position: center;
+}
